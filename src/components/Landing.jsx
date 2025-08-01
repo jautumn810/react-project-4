@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Landing.css';
+import './Landing.css';
 
 const Landing = () => {
   return (
     <div className="landing">
       <header className="landing-header">
         <div className="container">
-          <h1 className="landing-title">React User & Post Explorer</h1>
+        
+<h1 className="landing-title">React User & Post Explorer</h1>
           <p className="landing-subtitle">
             A modern React application for browsing users and their posts with advanced search capabilities
           </p>

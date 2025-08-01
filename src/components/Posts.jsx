@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
-import '../Post.css';
+import "./Posts.css";
 
 const Post = () => {
   const { id } = useParams();
@@ -38,7 +38,7 @@ const Post = () => {
     fetchPost();
   }, [fetchPost]);
 
-  // Loading skeleton component
+  
   const LoadingSkeleton = () => (
     <div className="loading-skeleton">
       <div className="post__title">Loading...</div>

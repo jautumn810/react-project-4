@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,15 @@ body {
     sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f8f9fa;
+  background-color: #764ba2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #764ba2;
+    min-height: 100vh;
 }
 
 /* Landing page container */
@@ -18,18 +26,16 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #764ba2;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+
 
 /* Header */
 .landing-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: #764ba2;
+  
   padding: 80px 0;
   text-align: center;
 }
@@ -38,10 +44,11 @@ body {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 20px;
-  background: linear-gradient(45deg, #fff, #f0f0f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: black;
+  font-weight: bold;
 }
 
 .landing-subtitle {
@@ -50,6 +57,8 @@ body {
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+  color: black;
+  font-weight: bold;
 }
 
 /* Main content */
@@ -304,7 +313,7 @@ body {
 /* Footer */
 .landing-footer {
   background: #333;
-  color: white;
+  color: #764ba2;
   padding: 40px 0;
   text-align: center;
   margin-top: auto;
@@ -313,6 +322,8 @@ body {
 .landing-footer p {
   opacity: 0.8;
   font-size: 0.95rem;
+  font-weight: bold;
+  color: black;
 }
 
 /* Responsive Design */
