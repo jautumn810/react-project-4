@@ -9,11 +9,13 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/users" element={<Home />} />
-        <Route path="/user/:id" element={<Post />} />  
-        <Route path="/:id" element={<Post />} />       
-          </Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/users" element={<Home />} />
+          <Route path="/posts" element={<Post listMode={true} />} />
+          <Route path="/posts/:id" element={<Post />} />
+          <Route path="/user/:id" element={<Post />} />
+          <Route path="/:id" element={<Post />} />
+        </Routes>
       </div>
     </Router>
   );
